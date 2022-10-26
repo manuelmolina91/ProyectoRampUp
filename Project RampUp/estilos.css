@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    margin: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.Preparado {
+    color:rgb(162, 28, 28);
+    text-align: center;
+    margin: 100px;
+    font-size: 100px;
+    width: 85%;
+}
+
+.Logo {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+
+.Guerreros,
+.Elden {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Guerreros,
+.Elden {
+    border: solid white;
+    width: 97%;
+    padding: 2px;
+    margin: 30px;
+}
+
+.Muertes {
+    border: solid white;
+    width: 97%;
+    padding: 2px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 3px;
+    margin: 15px;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+    background-color: rgb(162, 28, 28);
+    border-radius: 6px;
+    /*margin-left: 45%;*/
+    border: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Guerreros:hover {filter: sepia(60%);}
+
+.Elden:hover {filter: grayscale(80%);}
+
+
+/* Haciendo la página responsive*/
+
+@media screen and (max-width: 480px){
+    /*.Logo{
+        display: block;
+        width: 100%;
+    }
+    .Guerreros{
+        flex-direction: column left;
+        width: 100%;
+    }
+    .Elden{
+        flex-direction: column right;
+        width: 100%;
+    }
+    p{
+        display: block;
+        width: 100%;
+    }
+    .Muertes{
+        flex-direction: column left;
+        width: 100%;
+    }
+    .Preparado{
+        flex-direction: column right;
+        width: 100%;
+    }
+    .button{
+        display: block;
+        width: 100%;
+    }*/
+
+    
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        display: grid;
+        grid-template-columns: 50%;
+        margin: auto;
+    }
+    .Logo{grid-area: 1;}
+    .Guerreros{grid-area: 2/-1/ 8;}
+    .button{grid: area 50px; ;}
+
+    /*.container { 
+        display: grid;
+        grid-template-rows: 100px 100px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        grid-row: 1;
+        columns: 1;
+    }
+    /*.Logo {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 5; 
+        grid-row-start: 1; 
+        grid-row-end: 3;
+    }
+    .Guerreros{grid-area: 3/ 3;}
+    .Elden{grid-area: 3/ 4;}
+    p{grid-area: 4 / 2/ 1;}
+    .Muertes{grid-area: 3 / 4 / 5 / 6 ;}
+    .button{grid-area: 5 / 1 / 6 / 6;}*/
+
+}
+
+@media screen and (max-width: 1024px){
+    body {
+        margin: auto;
+    }
+}

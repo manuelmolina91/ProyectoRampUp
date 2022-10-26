@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+}
+
+label {
+    padding-left: 15px;
+    padding: 0;
+    border-radius: 1em;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria;
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: underline rgb(155, 73, 43);
+    margin: 100px;
+}
+
+p {
+    margin: 50px;
+    font-size: large;
+}
+
+.info {
+    margin: 100px;
+    padding: 100px;
+}
+
+.Contrato {
+    background: white;
+    padding: 1em;
+    border: solid black;
+    width: 95%;
+    margin-top: 100px;
+    border-radius: 1em;
+    background: white;
+    clear: both;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: 40px;
+    text-align: left;
+    box-sizing: border-box;
+    transition-duration: 500ms;
+}
+
+.Contrato:hover {
+    background: rgb(217, 217, 52);
+    transition-duration: 500ms;
+    transition-delay: 0.4s;
+}
+
+legend {
+    margin: 15px;
+    font-size: xx-large;
+}
+
+.button {
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    background-color: rgb(155, 73, 43);
+    border-radius: 6px;
+    margin-left: 45%;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 5px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.enlace {
+    font-size: xx-large;
+    color: rgb(189, 40, 40);
+    margin: 100px;
+}
+
+@media (max-width: 425px) {
+    .Contrato {
+        background: rgb(194, 9, 9);
+        margin: auto;
+    }
+    .enlace {
+        margin: auto;
+    }
+}
+
+@media (min-width: 720px) {
+    body {
+        margin: auto;
+    }
+    .enlace {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1080px) {
+    .Contrato {
+        margin: auto;
+    }
+    .enlace {
+        margin: auto;
+    }
+}

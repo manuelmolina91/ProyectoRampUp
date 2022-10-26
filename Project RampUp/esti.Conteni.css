@@ -1,0 +1,137 @@
+body {
+    background: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 50px;
+}
+
+a {
+    color: black;
+}
+
+.portadas {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.menu {
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.menu, li, a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu, li {
+    text-align: left;
+}
+
+table,td, th {
+    padding: 15px;
+    border: 2px black solid;
+    vertical-align: top;
+    text-align: left;
+    border-spacing: 0;
+    margin: 15px;
+}
+
+table {
+    width: 98%;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 1px 1px;
+    background-color: rgb(177, 41, 41);
+    color: white;
+    width: 98%;
+    text-decoration: none;
+    font-size: 1.5em;
+    right: 0px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+.mejormedia {
+    background-color: green;
+}
+
+.peormedia {
+    background-color: red;
+}
+
+.mejoresventas {
+    background-color: green;
+}
+
+.peoresventas {
+    background-color: red;
+}
+
+.aclaracion {
+    text-align: left;
+    margin: 3px;
+    padding: 20px;
+}
+
+/*rgb(200, 200, 10)*/
+
+ul:hover {
+    background: gray;
+    transition: 20s;
+}
+
+a:hover {
+    background: rgb(214, 124, 14);
+    transition: 1s;
+}
+
+body:hover {
+    background: white;
+    transition: 15s;
+}
+
+@media (max-width: 425px) {
+    table {
+        margin: auto;
+    }
+    .button {
+        margin: auto;
+    }
+}
+
+@media (min-width: 720px) {
+    table {
+        margin: auto;
+    }
+    .button {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1080px) {
+    table {
+        margin: auto;
+    }
+    .button {
+        margin: auto;
+    }
+}
